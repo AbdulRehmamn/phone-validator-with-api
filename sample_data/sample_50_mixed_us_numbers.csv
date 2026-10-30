@@ -1,0 +1,51 @@
+phone_number,customer_name,company,notes
+(415) 555-2671,Alice Johnson,SF Tech,San Francisco Landline
+800-432-1000,Bank of America,Financial Services,Toll-Free 800
+888-280-4331,Amazon Customer Service,Retail,Toll-Free 888
+877-383-4802,Chase Support,Banking,Toll-Free 877
+866-555-0199,Support Center,Enterprise,Toll-Free 866
+(212) 736-5000,Empire State Building,Observation,New York Landline
+(312) 555-0143,Chicago Brokerage,Trading,Downtown Chicago
++1 650 253 0000,Google HQ,Tech,Mountain View CA
+206-555-0100,Seattle Logistics,Shipping,Fictitious 555 range
+012-345-6789,Invalid User 1,Unknown,Invalid Area Code 012
+(123) 456-7890,Invalid User 2,Unknown,Invalid Area Code 123
+555-1234,Short Number,Test,Invalid short length
++14159876543,Mark Davis,Mobile User,Bay Area Wireless
+213-380-1234,Wilshire Medical,Healthcare,Los Angeles
+305-555-0188,Miami Sun Resort,Hospitality,Florida
+702-555-0192,Vegas Casino & Hotel,Entertainment,Nevada
+512-471-3434,Univ of Texas Austin,Education,Austin TX
+617-495-1000,Harvard University,Higher Ed,Cambridge MA
+404-656-2000,Georgia State Capitol,Government,Atlanta GA
+202-456-1111,White House Comments,Executive,Washington DC
+713-555-0177,Houston Energy Group,Oil & Gas,Texas
+602-555-0155,Phoenix Logistics,Distribution,Arizona
+215-555-0166,Philly Legal Services,Law,Pennsylvania
+619-555-0133,San Diego Solar,Renewables,California
+214-555-0144,Dallas Telecom,Network,Texas
+408-555-0111,Silicon Valley Labs,Semiconductors,San Jose CA
+904-555-0122,Jacksonville Freight,Logistics,Florida
+817-555-0181,Fort Worth Aviation,Aerospace,Texas
+614-555-0193,Columbus Retail Group,Consumer,Ohio
+704-555-0154,Charlotte Banking Hub,Finance,North Carolina
+317-555-0165,Indianapolis Pharma,Life Sciences,Indiana
+206-555-0176,Seattle Cloud Systems,SaaS,Washington
+303-555-0187,Denver Mountain Gear,Outdoors,Colorado
+615-555-0198,Nashville Music Group,Media,Tennessee
+414-555-0109,Milwaukee Brewing,Beverage,Wisconsin
+505-555-0120,Albuquerque Tech,Research,New Mexico
+520-555-0131,Tucson Aerospace,Defense,Arizona
+559-555-0142,Fresno Agriculture,Farming,California
+916-555-0153,Sacramento Agency,Public,California
+816-555-0164,Kansas City Rail,Transport,Missouri
+480-555-0175,Mesa Design Studio,Creative,Arizona
+757-555-0186,Virginia Beach Shipping,Maritime,Virginia
+402-555-0197,Omaha Insurance,Insurance,Nebraska
+919-555-0108,Raleigh BioTech,Biotech,North Carolina
+719-555-0119,Colorado Springs Defense,Space,Colorado
+800-555-0199,National Hotline,Toll-Free,Toll-Free 800
+855-555-0144,Discount Travel,Hotline,Toll-Free 855
+844-555-0188,Software Support,IT,Toll-Free 844
+833-555-0122,Consulting Group,Advisory,Toll-Free 833
+999-999-9999,Invalid Test,Test,Invalid Area Code 999

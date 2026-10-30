@@ -1,0 +1,59 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: us_phone_validator_web
+    restart: always
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://validator_user:validator_pass@db:5432/validator_db
+      - SYNC_DATABASE_URL=postgresql://validator_user:validator_pass@db:5432/validator_db
+      - REDIS_URL=redis://redis:6379/0
+      - ADMIN_API_KEY=val_master_live_998877665544332211
+    depends_on:
+      - db
+      - redis
+    volumes:
+      - storage_data:/app/backend/storage
+
+  db:
+    image: postgres:16-alpine
+    container_name: us_phone_validator_db
+    restart: always
+    environment:
+      POSTGRES_USER: validator_user
+      POSTGRES_PASSWORD: validator_pass
+      POSTGRES_DB: validator_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7-alpine
+    container_name: us_phone_validator_redis
+    restart: always
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+  nginx:
+    image: nginx:alpine
+    container_name: us_phone_validator_nginx
+    restart: always
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - web
+
+volumes:
+  postgres_data:
+  redis_data:
+  storage_data:
